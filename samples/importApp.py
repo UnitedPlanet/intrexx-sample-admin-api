@@ -20,7 +20,6 @@ response = requests.request("POST", url + endpoint, headers=headers, data=payloa
 myToken = response.text
 
 ##Import
-##Please not that the Application must be the same patchlevel as the target portal. 
 endpoint = f"/{portalname}/applications"
 
 payload={}
