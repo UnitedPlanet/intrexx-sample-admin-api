@@ -10,5 +10,8 @@ Besonders Betreiber, die eine Skalierung haben und/oder QM-Prozessen unterworfen
 
 Die Administration API bietet eine stabile Infrastruktur, die es erlaubt wichtige administrative Tätigkeiten auch über gängige Werkzeuge der Automatisierung auszuüben.  Gerade DevOps nutzen Automatisierungswerkzeuge, in die problemlos das REST-basierende Administration API eingebunden werden. Die Schnittstelle stellt bereits komfortabel eine Swagger / OpenAPI kompatible Dokumentation zur Verfügung. Insbesondere das Thema Staging (Transport von Applikationen und Prozessen von Entwicklungs- zu Test- bis hin zu PreProd- bzw. Produktiksystem) kann so über ein CLI (Command Line Interface) scriptgesteuert und damit immer nachvollziehbar umgesetzt werden.
 
+## Vorraussetzung 
 
-
+- Intrexx ab 10.10 (https://www.intrexx.com)
+- Python (https://www.python.org/)
+- Python requests (https://pypi.org/project/requests/)
